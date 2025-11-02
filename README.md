@@ -7,7 +7,7 @@ En Chile existen **22+ compañías de seguros generales** y se registraron **70.
 Se creó un **Score de recomendación** usando **media geométrica ponderada** que **balancea dimensiones** clave y entrega:
 
  **Foco Corporativo**
-* **Benchmark comparativo**  con recomendaciones **personalizados** a 3 compañias segun sus hallazgos.
+* **Benchmark comparativo**  con recomendaciones **personalizados** a 3 compañias segun hallazgos.
 
 **Foco Personal**
 * **Recomendación de compañía** por **región** y **tipo de vehículo** (automóvil, camioneta, motocicleta).
@@ -18,8 +18,8 @@ Se creó un **Score de recomendación** usando **media geométrica ponderada** q
 * **Reclamos y cierre** de los mismos en **SERNAC**.
 * **Clientes por compañía** (exposición).
 * **Tiempo promedio de reparación** por compañía según **tipo** y **nivel de daño** del vehículo.
-* **Dashboard** con recomendador según el perfil y análisis general de compañías *(click)*.
-* **Métricas creadas** *(click)*.
+* **Dashboard** con recomendador según el perfil y análisis general de compañías *(enlace)*.
+* **Métricas creadas** *(enlace)*.
 
 ## 3) Metodología de Score resumen
 
