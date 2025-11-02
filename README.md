@@ -10,15 +10,16 @@ Se creó un **Score de recomendación** usando **media geométrica ponderada** q
 
 **Foco Personal**
 * **Recomendación de compañía** por **región** y **tipo de vehículo** (automóvil, camioneta, motocicleta).
+ 
+**Dashboard** con recomendador según el perfil y análisis general de compañías ([enlace](https://app.powerbi.com/view?r=eyJrIjoiNWVjMmZjNWMtZjEwNy00ZDEzLTg0OTAtMWM5M2VlMjU2ZmI1IiwidCI6IjVjNmZkYWY0LWQ2MjYtNDkwOS05ZDI5LTY3YzJmMDIwOTU0MCJ9)).
 
-## 2) Alcance del análisis (qué se analizó)
+## 2) Alcance del análisis 
 
 * **Talleres disponibles por compañía**.
 * **Reclamos y cierre** de los mismos en **SERNAC**.
 * **Clientes por compañía** (exposición).
 * **Tiempo promedio de reparación** por compañía según **tipo** y **nivel de daño** del vehículo.
-* **Dashboard** con recomendador según el perfil y análisis general de compañías *(enlace)*.
-* **Métricas creadas** *(enlace)*.
+* **Métricas creadas** ([enlace](https://github.com/Analyst-JV/Recomendador-de-Aseguradoras-CL/blob/main/Metricas.md)).
 
 ## 3) Metodología de Score resumen
 
