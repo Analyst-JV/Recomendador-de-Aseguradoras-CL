@@ -37,19 +37,22 @@ exige **desempeño balanceado**; un mal indicador **no se compensa** fácilmente
 
 ## 4) Resumen ejecutivo
 
-### Página 1 — “Análisis Comparativo Aseguradoras”
+### “Análisis Comparativo Aseguradoras”
 
 El panel muestra la **distribución de resultados SERNAC por compañía** y un **benchmark de tiempos por severidad**, evidenciando **diferencias operativas** relevantes.
 
-**Hallazgos clave**
+ <img src="https://raw.githubusercontent.com/Analyst-JV/imagenes-powerbi/refs/heads/main/Distribucion%202%20.png" alt="Recomendación" width="820">
+ <img src="https://raw.githubusercontent.com/Analyst-JV/imagenes-powerbi/refs/heads/main/Reparacion2.png" alt="Recomendación" width="820">
+ 
+ **Hallazgos clave**
 
-* **BCI**: presenta **peores métricas** en la mayoría de los casos.
+**BCI**: presenta **peores métricas** en la mayoría de los casos.
 
   * **Tiempos de reparación**: desfavorables.
   * **Reclamos/10 mil clientes**: **3.ª más alta**.
   * **% de reclamos no acogidos**: elevado.
   * **Cobertura regional**: **decepcionante**; aunque es **3.ª** en cantidad total de talleres, **no** se traduce en **tiempos más bajos**.
-* **Porvenir, Sudamérica G y Renta Nacional**: **mejor desempeño** en conjunto.
+ **Porvenir, Sudamérica G y Renta Nacional**: **mejor desempeño** en conjunto.
 
   * **Porvenir**: **Top 3** en **tiempos promedio de reparación** para **automóvil** (independiente de la gravedad).
 
@@ -64,16 +67,18 @@ El panel muestra la **distribución de resultados SERNAC por compañía** y un *
   * **Resto de indicadores**: **dentro del promedio**.
   * **Cobertura**: **menor cantidad de talleres** a nivel país; **normalizando por clientes** queda **levemente por debajo del promedio**.
 
-### Página 2 — Motor de recomendación
+### Motor de recomendación
 
 El **recomendador** personaliza por **región** y **tipo de vehículo**, entregando una compañía sugerida con su **SCORE** y **desglose** (IEC, talleres en la región, tiempos por severidad).
 
 * Con **KPIs normalizados por cliente**, **Porvenir** y **Sudamérica G** **destacan en Biobío**: **tasas de reclamos más bajas**, **tiempos competitivos** y **cobertura adecuada** para su base de clientes.
+<img src="https://raw.githubusercontent.com/Analyst-JV/imagenes-powerbi/refs/heads/main/Recomendacion.png" alt="Recomendación" width="800">
+
 
 **“Mejores en perfil”**
 
 * **Porvenir**: combina **baja tasa de reclamos**, **IEC alto** y **tiempos consistentes**; lidera el **SCORE** en el ejemplo mostrado.
-* **Sudamérica G**: **competitiva** en tasa de reclamos y tiempos; buen **TOP 5** pese a tener **menos clientes** que incumbentes grandes.
+* **Sudamérica G**: **competitiva** con peores tasas de reclamos y  con mejores tiempos promedios de reparacion que porvenir ; **TOP 5** 
 
 ---
 
@@ -91,16 +96,9 @@ El **recomendador** personaliza por **región** y **tipo de vehículo**, entrega
 * **Consistencia** entre severidades (leve/mediano/grave) **correlaciona** con **SCORE alto**.
 
 ### 5.3 Cobertura de talleres
+<img src="https://raw.githubusercontent.com/Analyst-JV/imagenes-powerbi/refs/heads/main/Relacion.png" alt="Recomendación" width="800">
 
-* La métrica **talleres por 10.000 clientes** distingue **capacidad real**: redes más densas por región reducen **colas** y **tiempos**.
-
-### 5.4 Consideraciones de volumen
-
-En **perfiles muy específicos** (región × tipo de vehículo) algunas compañías pueden tener **pocos asegurados**. Para evitar **volatilidad**:
-
-* Aplicar **umbrales de volumen** (mínimo de clientes por perfil).
-* Usar **intervalos de confianza/Wilson** para tasas.
-* Incorporar **regularización “shrinkage”** hacia el **promedio nacional**.
+Cobertura ≠ velocidad: en el corte nacional no se observa relación directa entre talleres/10k y tiempos promedio. Ej.: Sudamericana G logra tiempos bajos con cobertura media–baja, mientras BCI presenta tiempos altos con cobertura similar*.
 
 ---
 
@@ -122,4 +120,3 @@ En **perfiles muy específicos** (región × tipo de vehículo) algunas compañ�
 
 * **Aumentar la temporalidad** (más periodos) para robustecer tendencias.
 * **Cruzar causas de reclamo**: hoy disponibles a nivel **global**, no **segmentadas por compañía**; incorporar esta dimensión cuando esté **disponible**.
-* Mantener el **benchmark** por **región** y **tipo** para asegurar **comparabilidad** justa y accionable.
