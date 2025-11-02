@@ -1,4 +1,4 @@
-# Recomendador-de-Aseguradoras-CL
+# Recomendador y Comparacion de Aseguradoras en CL
 
 ## 1) Contexto del proyecto y objetivos
 
