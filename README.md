@@ -25,7 +25,8 @@ Se creó un **Score de recomendación** usando **media geométrica ponderada** q
 
 * **Score Recomendación (estricto, 0–100):** media **geométrica ponderada** de **Cobertura** (10%), **Tiempo** (40%) e **IEC** (40%), trabajando todo en 0–1.
 
-  * **Racional:** exige **desempeño balanceado**; un mal indicador **no se compensa** fácilmente con otros altos.
+exige **desempeño balanceado**; un mal indicador **no se compensa** fácilmente con otros altos.
+
 * **IEC (0–100):** combinación compensatoria de **FR**, **CRS** y **RC** (35%/45%/20%).
 * **Tiempo (0–100):** puntajes por severidad (**Leve/Mediana/Grave**) vs. benchmarks (promedio = 50), ponderados 20%/30%/50%.
 * **Cobertura (0–1):** talleres por 10k clientes (normalización log y centrado en el promedio regional).
