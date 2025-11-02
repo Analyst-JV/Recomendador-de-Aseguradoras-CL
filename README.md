@@ -116,7 +116,13 @@ Cobertura ≠ velocidad: en el corte nacional no se observa relación directa en
 
 **BCI** — **Shock operativo** en tiempos: peritaje ≤48h, autorización ≤72h y seguimiento proactivo. **Eliminar “no responde”** y reducir **no acoge** con criterios y checklist claros. **Auditar y reconfigurar la red** por **capacidad efectiva** (no solo conteo) y concentrar flujo en talleres que cumplen SLA. 
 
-**Próximos pasos**
+## Próximos pasos
 
-* **Aumentar la temporalidad** (más periodos) para robustecer tendencias.
-* **Cruzar causas de reclamo**: hoy disponibles a nivel **global**, no **segmentadas por compañía**; incorporar esta dimensión cuando esté **disponible**.
+- **Aumentar la temporalidad** (más periodos) para robustecer tendencias.
+- **Cruzar causas de reclamo**: hoy disponibles a nivel **global**, no **segmentadas por compañía**; incorporar esta dimensión cuando esté **disponible**.
+
+## Alcance y limitaciones
+
+- **Nivel geográfico de reparaciones:** los **tiempos promedio** están a **nivel país**; pueden **variar por región**. Si se requiere decisión local, **regionalizar** los tiempos.
+- **Reclamos SERNAC:** métricas a **nivel compañía** con posibles **rezagos/criterios distintos**; útiles para comparar, pero no capturan **toda la experiencia**.
+- **Reseñas externas (Google Maps):** conviene **analizar comentarios y ratings públicos** (sentimiento/temas) por **compañía y región** para complementar los datos del SERNAC.
