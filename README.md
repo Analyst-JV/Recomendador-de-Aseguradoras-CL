@@ -1,5 +1,4 @@
 # Recomendador-de-Aseguradoras-CL
-# Benchmark y Score de Aseguradoras – Chile
 
 ## 1) Contexto del proyecto y objetivos
 
